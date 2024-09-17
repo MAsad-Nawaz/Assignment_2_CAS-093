@@ -12,8 +12,8 @@ nltk.download('averaged_perceptron_tagger')
 
 # Step 1: Read and preprocess the text file using NLTK
 
-# Path to your combined text file
-file_path = '/content/sample_data/combined_texts.txt'  # Replace with your actual file path
+# Path to a combined text file
+file_path = 'combined_texts.txt' 
 
 # Read the content of the text file
 with open(file_path, 'r', encoding='utf-8') as file:
@@ -45,7 +45,7 @@ def chunk_text(text, max_length):
         yield text[i:i + max_length]
 
 # Adjust the max_length to a smaller size that is safe to process
-max_chunk_length = 1000000  # You can adjust this value
+max_chunk_length = 1000000  # we can adjust this value
 
 # Split the text into smaller chunks
 text_chunks = list(chunk_text(text, max_chunk_length))
