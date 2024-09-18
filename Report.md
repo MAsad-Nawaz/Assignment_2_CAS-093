@@ -118,7 +118,7 @@ Final Key Value: The final total, which is the key, is printed and used for decr
 - **Key Revealed:**
   - The encryption key is successfully revealed as `13` through the fixed code
 
-![Reveal_Key](Screenshots/Q3Reveal_Key.png) 
+![Reveal_Key](Outputs/Q3Reveal_Key.png) 
 
 
 ### 2. Writing the Decryption Function
@@ -137,7 +137,7 @@ Output: The decrypted code is printed.
   - Special handling is done for uppercase and lowercase letters to ensure correct decryption.
 
 - The `decrypt` function effectively reverses the encryption applied to the provided code snippet, producing readable decrypted code.
-![Decrypted Code](Screenshots/Q3Decrypted_Code.png)
+![Decrypted Code](Outputs/Q3Decrypted_Code.png)
 
 
 ### 3. Correcting Errors and Providing Comments
@@ -191,7 +191,7 @@ Certain conditions for set membership.
 4. Loops
 A for loop iterates through a range of numbers, printing each one.
 A while loop processes numbers based on specific conditions in the process_numbers() function.
-![Corrected Decrypted Code](Screenshots/Q3CorrectedEncryptedCode.png)
+![Corrected Decrypted Code](Outputs/Q3CorrectedEncryptedCode.png)
 
 ### Comments:
   - Global and local variables
@@ -212,7 +212,8 @@ The comments directly address the errors and provide explanations for the correc
 
 - Corrected Program Output: Displays updated values of global variables, dictionaries, and sets.
 
-![Program Output](Screenshots/Q3Output.png)
+ 
+![Program Output](Outputs/Q3FinalOutput.png)
 
 ---
 
